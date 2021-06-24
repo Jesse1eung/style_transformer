@@ -71,3 +71,23 @@ python main.py
 
 Update: You can find the outputs of our model in the "outputs" folder.
 here is the ckpt for imdb and yelp dataset: [ckpt.rar](https://drive.google.com/file/d/1hSK5w6WKAnQMl1XEutmNAQKyq1_ZrPY1/view?usp=sharing)
+
+## Example
+```
+   ******************** neg sample ********************
+   [gold] there chips are ok , but their salsa is really bland .
+   [raw ] there chips are ok , but their salsa is really bland .
+   [rev ] pub chips are ok but their salsa is really good !
+   [ref ] these chips are okay but their salsa is really tasty .
+   
+   [gold] blue cheese dressing was n't the best by any means .
+   [raw ] blue cheese dressing was n't the best by any means .
+   [rev ] blue cheese dressing was the best means !
+   [ref ] blue cheese dressing was above average .
+   
+   ******************** pos sample ********************
+   [gold] amazing food , great service .
+   [raw ] amazing food , great service .
+   [rev ] terrible hostess , horrible kfc .
+   [ref ] lousy food , slow service .
+```
